@@ -31,6 +31,7 @@ footer p{
 
 #container{
     display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -38,8 +39,9 @@ footer p{
     margin: 1rem;
     background-color: rgb(41, 38, 51);
     height: 20rem;
-    color: white;
-    padding: 0.5rem;
+    color: rgba(245, 159, 0, 0.973);
+    width: 400px;
+    margin-top: 30px;
 }
 .cartao-conteudo{
     text-align: center;
@@ -68,6 +70,7 @@ footer p{
 .cartao-conteudo-pergunta{
     font-weight: 500;
     color: var(--text-color);
+    padding-top: 0.5rem;
 }
 
 .cartao-conteudo-resposta{
